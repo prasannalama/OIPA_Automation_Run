@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6843" started-at="2020-09-19T03:12:34 IST" finished-at="2020-09-19T03:12:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6843" started-at="2020-09-19T03:12:34 IST" finished-at="2020-09-19T03:12:40 IST">
+      <class name="test.java.NewTest">
+        <test-method status="PASS" signature="testgooglesearch()[pri:0, instance:test.java.NewTest@91161c7]" name="testgooglesearch" duration-ms="6780" started-at="2020-09-19T03:12:34 IST" finished-at="2020-09-19T03:12:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgooglesearch -->
+      </class> <!-- test.java.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

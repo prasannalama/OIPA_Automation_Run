@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="test.java.NewTest"/>
+      <class name="test.java.CreateClient"/>
+      <class name="test.java.CreatePolicy"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

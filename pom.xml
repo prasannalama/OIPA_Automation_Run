@@ -3,6 +3,9 @@
   <groupId>OIPAAutomation_Jenkins</groupId>
   <artifactId>OIPAAutomation_Jenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <main.basedir>${project.basedir}</main.basedir>
+</properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -20,7 +23,6 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
-		        <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
       <plugin>
@@ -91,6 +93,17 @@
     <artifactId>jxls-reader</artifactId>
     <version>1.0.6</version>
 </dependency>
-
+<dependency>
+	<groupId>org.osgl</groupId>
+	<artifactId>excel-reader</artifactId>
+	<version>1.1.0</version>
+</dependency>  
+ <dependency>
+     <groupId>ShineXLS</groupId>
+     <artifactId>ShineXLS</artifactId>
+     <scope>system</scope>
+     <version>1.0</version>
+     <systemPath>${project.basedir}/lib/ShineXLS.jar</systemPath>
+   </dependency>
   </dependencies>
 </project>

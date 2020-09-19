@@ -10,10 +10,10 @@ public class NewTest {
 	@Test
 	public static void testgooglesearch() 
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Workspace\\Framework\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.in");
-		// we expect the title “Google “ should be present
+		// we expect the title â€œGoogle â€œ should be present
 		String Expectedtitle = "Google";
 		// it will fetch the actual title
 		String Actualtitle = driver.getTitle();
